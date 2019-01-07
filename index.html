@@ -1,0 +1,160 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<header>
+  
+
+  <ul class="main_menu">
+    <img src="img/logo.png" class="logo" alt="logo"> 
+    <li class="acceuil">Accueil</li>
+    <li>Goodies</li>
+    <li>Blog</li>
+    <li>Evenements</li>
+    <li>Contact</li>
+    <li>Adhesion</li>
+  </ul>
+
+</header>
+
+<div class="contenu">
+
+  <h2>Evenements</h2>
+  <div class="trait"></div>
+  <div class="article">
+      <div onclick="myvar()">
+       <img src="img/marche-de-noel.png" class="img_article" alt="img_article"> 
+      </div>
+      <div class="contenu_article" >
+        <h3>Marché de nöel</h3>
+          <p class="date" >19/12/2019</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis metus sed accumsan pharetra. Nulla vulputate magna risus, vel pulvinar urna laoreet in. Nunc lacinia aliquet leo, nec rutrum urna scelerisque non. Etiam a dapibus purus. Nunc ultricies euismod condimentum. Sed vitae dictum mauris, sed mollis sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin eget nisi sed lorem malesuada dapibus sed in diam. Praesent nisi urna, porta at turpis ac, consectetur tristique neque. Phasellus luctus pharetra varius. Ut nec faucibus lectus, eget ornare lectus. Vestibulum velit turpis, fringilla eget vehicula a, rhoncus sed mi. Sed augue ipsum, rhoncus in pretium in, cursus non lorem. Vivamus posuere pharetra turpis.</p>
+      </div>
+  </div>
+  <div class="h3" id="textinfos"></div>
+  <div class="trait"></div>
+
+
+  <div class="article">
+
+ 
+        <div onclick="myvar2()"> 
+          <img src="img/café.png" class="img_article" alt="img_article"> 
+        </div>  
+    
+      <div class="contenu_article" >
+          <h3>Café des parents</h3>
+          <p class="date" >07/06/2020</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis metus sed accumsan pharetra. Nulla vulputate magna risus, vel pulvinar urna laoreet in. Nunc lacinia aliquet leo, nec rutrum urna scelerisque non. Etiam a dapibus purus. Nunc ultricies euismod condimentum. Sed vitae dictum mauris, sed mollis sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin eget nisi sed lorem malesuada dapibus sed in diam. Praesent nisi urna, porta at turpis ac, consectetur tristique neque. Phasellus luctus pharetra varius. Ut nec faucibus lectus, eget ornare lectus. Vestibulum velit turpis, fringilla eget vehicula a, rhoncus sed mi. Sed augue ipsum, rhoncus in pretium in, cursus non lorem. Vivamus posuere pharetra turpis.</p>
+      </div>
+  </div>
+  <div class="h3" id="textinfos_2"></div>
+  <div class="trait"></div>
+
+  <div class="article">
+
+      <img src="img/café.png" class="img_article" alt="img_article">     
+      <div class="contenu_article" >
+          <h3>Café des parents</h3>
+          <p class="date" >07/06/2020</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis metus sed accumsan pharetra. Nulla vulputate magna risus, vel pulvinar urna laoreet in. Nunc lacinia aliquet leo, nec rutrum urna scelerisque non. Etiam a dapibus purus. Nunc ultricies euismod condimentum. Sed vitae dictum mauris, sed mollis sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin eget nisi sed lorem malesuada dapibus sed in diam. Praesent nisi urna, porta at turpis ac, consectetur tristique neque. Phasellus luctus pharetra varius. Ut nec faucibus lectus, eget ornare lectus. Vestibulum velit turpis, fringilla eget vehicula a, rhoncus sed mi. Sed augue ipsum, rhoncus in pretium in, cursus non lorem. Vivamus posuere pharetra turpis.</p>
+      </div>
+  </div>
+
+</div> 
+  
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+ 
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+
+<script>
+
+    var app = 0;
+
+function myvar(){
+
+   if(app == 0){
+        app = 1;
+        open();
+
+   }else{
+        app = 0;
+        close();
+   }
+}
+
+function open()
+{
+
+  document.getElementById("textinfos").innerHTML = "<div  class='in'><p class='informations'>Des infos tres utiles!</p></div>" ;
+
+}
+
+function close()
+{
+
+  document.getElementById("textinfos").innerHTML = "<div  class='out'></div>" ;
+
+}
+
+var app2 = 0;
+
+function myvar2(){
+
+   if(app2 == 0){
+        app2 = 1;
+        open2();
+
+   }else{
+        app2 = 0;
+        close2();
+   }
+}
+
+function open2()
+{
+
+  document.getElementById("textinfos_2").innerHTML = "<div  class='in'><p class='informations'>Des infos tres utiles!</p></div>" ;
+
+}
+
+function close2()
+{
+
+  document.getElementById("textinfos_2").innerHTML = "<div  class='out'></div>" ;
+
+}
+    
+</script>    
+
+
+</html>
