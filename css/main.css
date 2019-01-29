@@ -89,29 +89,81 @@ textarea {
    
 body {
 
-    align-items: center;
-    font-family: 'Heebo', 'Arial';
+    font-family:'gotham', Medium;
     background-color: #E1E1E1;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{ 
+
+    color: rgb(0, 0, 0);
 
 }
 
 header{
 
+    display: flex;
     background-color: #CB0400;
-    padding-top: 0px;
+    height: 250px;
+    transform-origin:0 0; 
+    margin-top: -82px;
+    transform:skewY(3deg); 
+    background-image: radial-gradient(circle, #9f0000 7%, transparent 10%), radial-gradient(circle, #9f0000 7%, transparent 10%) ;
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px; 
+    border-bottom: rgb(0, 0, 0) solid 4px;
+    border-left:rgb(0, 0, 0) solid 1px;
+    border-right: rgb(0, 0, 0) solid 1px;
+   
+}
+
+.don{
+
+     position: absolute;
+     width: 125px;
+     margin-top: 48px;
+     margin-left: 88.5%;
 
 }
+
+.blue{
+
+    width: 35%;
+    margin-left: -100px;
+    padding-top: 8px;
+    
+}
+
+.video_png{
+
+    width: 70%;
+    margin-top: 150px;
+    margin-left: 15%;
+
+
+}
+
 
 .main_menu {
 
    display: flex;
    justify-content: space-around;
    list-style: none;
-   font-size: 20px;
-   margin-left: -5%;
+   font-size: 25px;
    color: white;
    margin-top: 0px;
-  
+   margin-top: 12%;
+   width: 100%;
+   margin-left: -8%;
+   justify-content: space-around;
+
 }
 
 .acceuil{
@@ -119,6 +171,7 @@ header{
    margin-left: -3%;
 
 }
+
 li{
  
   margin-top: 24px;
@@ -126,14 +179,6 @@ li{
 }
 
 
-.logo{
-
-    width: 80px;
-    height:80px;
-    margin-top: 0px;
-    background-color: #FFDAB9;
-    
-}
 
 .contenu{
 
@@ -160,7 +205,6 @@ li{
    cursor: pointer;
 
 }
-
 
 .contenu_article{
 
@@ -196,17 +240,13 @@ p{
 }
 
 .trait{
+
     margin-top: 75px;
     width: 500px;
     border-top: solid grey 3px;
     opacity: 0.3;
 }
 
-.infos{
-
-
-    
-}
 
 .in{
 
@@ -217,7 +257,6 @@ p{
 }
 
 
-
 .informations{
 
     margin-left: 20px;
@@ -225,9 +264,42 @@ p{
 
 }
 
+.picto{
+
+   width: 200px;
+
+}
 
 
 
+.pictogrammes{
+
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-around;
+    
+}
+
+.logo{
+
+
+
+}
+
+.video_contener{
+
+    margin-top: 200px;
+    background-color: #CB0400;
+    height: 280px;
+    transform-origin:0 0; 
+
+}
+
+video{
+
+    margin-left: 30%;
+
+}
 
 /* ==========================================================================
    Helper classes
