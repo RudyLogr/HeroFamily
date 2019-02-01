@@ -115,9 +115,9 @@ header{
     transform-origin:0 0; 
     margin-top: -82px;
     transform:skewY(3deg); 
-    background-image: radial-gradient(circle, #9f0000 7%, transparent 10%), radial-gradient(circle, #9f0000 7%, transparent 10%) ;
-    background-size: 20px 20px;
-    background-position: 0 0, 10px 10px; 
+    background-image: radial-gradient(circle, #9f0000 10%, transparent 12%), radial-gradient(circle, #9f0000 10%, transparent 12%) ;
+    background-size: 25px 25px;
+    background-position: 0 0, 15px 15px; 
     border-bottom: rgb(0, 0, 0) solid 4px;
     border-left:rgb(0, 0, 0) solid 1px;
     border-right: rgb(0, 0, 0) solid 1px;
@@ -127,28 +127,20 @@ header{
 .don{
 
      position: absolute;
-     width: 125px;
-     margin-top: 48px;
-     margin-left: 88.5%;
+     width: 150px;
+     margin-top: 46px;
+     margin-left: 88%;
 
 }
 
 .blue{
 
-    width: 35%;
+    width: 30%;
     margin-left: -100px;
     padding-top: 8px;
     
 }
 
-.video_png{
-
-    width: 70%;
-    margin-top: 150px;
-    margin-left: 15%;
-
-
-}
 
 
 .main_menu {
@@ -280,11 +272,6 @@ p{
     
 }
 
-.logo{
-
-
-
-}
 
 .video_contener{
 
@@ -300,6 +287,45 @@ video{
     margin-left: 30%;
 
 }
+
+.logo{
+
+   width: 150px;
+   position: absolute;
+   margin-top: 80px;
+   margin-left: 60px;
+
+}
+
+.font{
+
+    position: absolute;
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 40%;
+
+
+}
+
+.image_container{
+
+    display: flex;
+    background-color: #CB0400;
+    height: 250px;
+    transform-origin:0 0; 
+    margin-top: 500px ;
+    transform:skewY(-3deg); 
+    border-top: rgb(0, 0, 0) solid 4px;
+    border-bottom: rgb(0, 0, 0) solid 4px;
+}
+
+
+@media screen and (max-width: 480px)
+{
+   
+
+}
+
 
 /* ==========================================================================
    Helper classes
